@@ -26,6 +26,7 @@ $(APPNAME)_DBD += devIocStats.dbd
 $(APPNAME)_DBD += caPutLog.dbd
 ## add other dbd here ##
 #$(APPNAME)_DBD += xxx.dbd
+$(APPNAME)_DBD += lvDCOM.dbd
 
 # Add all the support libraries needed by this IOC
 ## ISIS standard libraries ##
@@ -38,6 +39,8 @@ $(APPNAME)_LIBS += autosave
 $(APPNAME)_LIBS += utilities
 ## Add other libraries here ##
 #$(APPNAME)_LIBS += xxx
+$(APPNAME)_LIBS +=  lvDCOM asyn
+$(APPNAME)_SYS_LIBS_WIN32 += msxml2
 
 # CHIPIR_Collimator_registerRecordDeviceDriver.cpp derives from CHIPIR_Collimator.dbd
 $(APPNAME)_SRCS += $(APPNAME)_registerRecordDeviceDriver.cpp
@@ -57,7 +60,3 @@ $(APPNAME)_LIBS += $(EPICS_BASE_IOC_LIBS)
 include $(TOP)/configure/RULES
 #----------------------------------------
 #  ADD RULES AFTER THIS LINE
-
-$(APPNAME)_LIBS +=  lvDCOM asyn
-$(APPNAME)_SYS_LIBS_WIN32 += msxml2
-$(APPNAME)_DBD += lvDCOM.dbd

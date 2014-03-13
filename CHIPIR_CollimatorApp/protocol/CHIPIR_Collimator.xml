@@ -3,7 +3,7 @@
 <lvinput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://epics.isis.rl.ac.uk/lvDCOMinput/1.0" xsi:schemaLocation="http://epics.isis.rl.ac.uk/lvDCOMinput/1.0 lvDCOMinput.xsd">
   <extint path="c:/LabVIEW Modules/Common/External Interface/External Interface.llb/External Interface - Set Value.vi"/>
   <section name="frontpanel">
-    <vi path="CHIPIR Collimator - Front Panel.vi">
+    <vi path="C:\LabVIEW Modules\Instruments\CHIPIR\CHIPIR Collimator\CHIPIR Collimator - System Functions.llb\CHIPIR Collimator - Front Panel.vi">
       <!-- Disc Section -->
       <param name="Message" type="string">
         <read method="GCV" target="Message"/>
