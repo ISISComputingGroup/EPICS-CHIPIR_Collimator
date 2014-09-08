@@ -80,6 +80,7 @@ record(ai, "$(P)NORTH_POSITION")
     field(SIML, "$(P)SIM")
     field(SIOL, "$(P)SIM:NORTH_POSITION")
     field(SDIS, "$(P)DISABLE")
+	field(EGU, "mm")
 }
 
 
@@ -92,6 +93,7 @@ record(ai, "$(P)EAST_POSITION")
     field(SIML, "$(P)SIM")
     field(SIOL, "$(P)SIM:EAST_POSITION")
     field(SDIS, "$(P)DISABLE")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)SOUTH_POSITION")
@@ -103,6 +105,7 @@ record(ai, "$(P)SOUTH_POSITION")
     field(SIML, "$(P)SIM")
     field(SIOL, "$(P)SIM:SOUTH_POSITION")
     field(SDIS, "$(P)DISABLE")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)WEST_POSITION")
@@ -114,6 +117,7 @@ record(ai, "$(P)WEST_POSITION")
     field(SIML, "$(P)SIM")
     field(SIOL, "$(P)SIM:WEST_POSITION")
     field(SDIS, "$(P)DISABLE")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)CENTRE_X")
@@ -125,6 +129,7 @@ record(ai, "$(P)CENTRE_X")
     field(SIML, "$(P)SIM")
     field(SIOL, "$(P)SIM:CENTRE_X")
     field(SDIS, "$(P)DISABLE")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)CENTRE_Y")
@@ -136,6 +141,7 @@ record(ai, "$(P)CENTRE_Y")
     field(SIML, "$(P)SIM")
     field(SIOL, "$(P)SIM:CENTRE_Y")
     field(SDIS, "$(P)DISABLE")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)HORIZ_GAP")
@@ -147,6 +153,7 @@ record(ai, "$(P)HORIZ_GAP")
     field(SIML, "$(P)SIM")
     field(SIOL, "$(P)SIM:HORIZ_GAP")
     field(SDIS, "$(P)DISABLE")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)VERT_GAP")
@@ -158,6 +165,7 @@ record(ai, "$(P)VERT_GAP")
     field(SIML, "$(P)SIM")
     field(SIOL, "$(P)SIM:VERT_GAP")
     field(SDIS, "$(P)DISABLE")
+	field(EGU, "mm")
 }
 
 record(mbbi, "$(P)JAWS_ASSEMBLY_STATE")
@@ -190,6 +198,7 @@ record(ai, "$(P)SIM:HORIZ_GAP")
     field(SCAN, "Passive")
     field(DTYP, "Soft Channel")
     field(VAL, "15.15")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)SIM:CENTRE_Y")
@@ -197,6 +206,7 @@ record(ai, "$(P)SIM:CENTRE_Y")
     field(SCAN, "Passive")
     field(DTYP, "Soft Channel")
     field(VAL, "-20.20")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)SIM:CENTRE_X")
@@ -204,6 +214,7 @@ record(ai, "$(P)SIM:CENTRE_X")
     field(SCAN, "Passive")
     field(DTYP, "Soft Channel")
     field(VAL, "10.10")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)SIM:PREVIOUS_POSITION")
@@ -232,6 +243,7 @@ record(ai, "$(P)SIM:WEST_POSITION")
     field(SCAN, "Passive")
     field(DTYP, "Soft Channel")
     field(VAL, "-17.17")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)SIM:EAST_POSITION")
@@ -239,6 +251,7 @@ record(ai, "$(P)SIM:EAST_POSITION")
     field(SCAN, "Passive")
     field(DTYP, "Soft Channel")
     field(VAL, "13.13")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)SIM:VERT_GAP")
@@ -246,6 +259,7 @@ record(ai, "$(P)SIM:VERT_GAP")
     field(SCAN, "Passive")
     field(DTYP, "Soft Channel")
     field(VAL, "35.35")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)SIM:ACTUAL_TARGET_POSITION")
@@ -274,6 +288,7 @@ record(ai, "$(P)SIM:SOUTH_POSITION")
     field(SCAN, "Passive")
     field(DTYP, "Soft Channel")
     field(VAL, "-23.23")
+	field(EGU, "mm")
 }
 
 record(ai, "$(P)SIM:NORTH_POSITION")
@@ -281,4 +296,5 @@ record(ai, "$(P)SIM:NORTH_POSITION")
     field(SCAN, "Passive")
     field(DTYP, "Soft Channel")
     field(VAL, "27.27")
+	field(EGU, "mm")
 }
